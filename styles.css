@@ -1,0 +1,87 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  color: #3D3D3D;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  color: #FF6F00;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  color: #02ff0f;
+}
+
+video {
+  display: block;
+}
+
+section {
+  opacity: 1;
+  transition: opacity 500ms ease-in-oust;
+}
+
+.removed {
+  display: none;
+}
+
+.invisible {
+  opacity: 0.2;
+}
+
+.camView {
+  position: relative;
+  float: left;
+  width: calc(100% - 20px);
+  margin: 10px;
+  cursor: pointer;
+}
+
+.camView p {
+  position: absolute;
+  padding: 5px;
+  background-color: rgba(0, 123, 255, 0.85);
+  color: #FFF;
+  border: 1px dashed rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  font-size: 12px;
+}
+
+.highlighter {
+  background: rgba(0, 255, 0, 0.25);
+  border: 1px dashed #fff;
+  z-index: 1;
+  position: absolute;
+}
+
+.popup {
+  postion: fixed;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 0 2px 4px rgb(235, 204, 204);
+}
+
+.popup p { 
+  margin-bottom: 10;
+}
+
+.popup a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup button {
+  padding: 5px 10px;
+}
