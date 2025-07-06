@@ -5,7 +5,7 @@ Uses AI and a webcam to accurately determine foods and give the user a link to s
 Steps to work the Computer Vision Model:
 1.	Start up a local host server in the project folder using a power shell using: 
 	py -m http.server or python -m http.server
-2.	In your browser look up https://localhost8000.com/
+2.	In your browser look up https://localhost:8000.com/
 3.	Click on the html link
 4.	Press the button to start the camera
 5.	Show the video feed an object and if it detects one of the specified images you will be able to click its link to see its nutritional facts 
